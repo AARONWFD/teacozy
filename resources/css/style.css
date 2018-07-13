@@ -116,6 +116,10 @@ h2, h3, h4 {
 
 }
 
+.box h2 {
+  margin: 0px;
+}
+
 /* locations section */
 
 .location-content {
@@ -165,4 +169,21 @@ text-align: center;
   text-align: center;
   justify-content: center;
   align-items: baseline;
+}
+
+/* footer */
+.footer{
+display: flex;
+flex-direction: column;
+
+}
+
+.contact {
+  text-align: center;
+}
+
+.copyright {
+  text-align: left;
+  margin-left: 20px;
+  align-self: flex-start;
 }
